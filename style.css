@@ -13,6 +13,7 @@
     body{
         width: 100%;
         height: 100%;
+        /* background-color: #3333333e; */
     main{
         width: 100%;
         height: 100vh;
@@ -25,9 +26,14 @@
             font-family: sfont;
             height: 15vh;
             width: 100%;
+            /* position: sticky; */
+            position: fixed;
+            top: 0;
+            z-index: 1;
+            
             /* display: none; */
             padding: 0 5vw;
-            background-color: aliceblue;
+            background-color: rgba(20, 87, 145, 0.342);
             align-items: center;
             justify-content: space-between;
             .left{
@@ -84,10 +90,10 @@
         }
         header{
         font-family: sfont;
-
+            margin-top: 15vh;
             width: 100%;
             height: 85vh;
-            /* background-color: aquamarine; */
+            background-color: rgba(12, 82, 105, 0.205);
             /* border: 2px solid yellow; */
             .content{
                 /* border: 5px solid rgb(170, 156, 156); */
@@ -175,7 +181,7 @@
                         height: 75%;
                         position: relative;
                         /* border-radius: 100%; */
-                        /* z-index: 1; */
+                        /* z-index: 0; */
                         .img{
                             border: 10px solid rgba(81, 96, 206, 0.719);
                             width: 100%;
@@ -198,7 +204,7 @@
 
         }
         .sec-one{
-             background-color: rgba(240, 255, 255, 0.586);
+              background-color: rgba(12, 82, 105, 0.205);
              font-family: sfont;
             /* font-family: sans-serif; */
             width: 100%;
@@ -495,7 +501,7 @@
             .projects{
                 width: 100%;
                 height: 100%;
-                 background-color: rgba(240, 255, 255, 0.678);
+                 background-color: rgba(12, 82, 105, 0.205);
                 /* background-color: aqua; */
                 p{
                     text-align: center;
@@ -665,7 +671,7 @@
             font-family: sfont;
             width: 100%;
             height: 100vh;
-             background-color: rgba(240, 255, 255, 0.153);
+              background-color: rgba(12, 82, 105, 0.205);
             /* background-color: yellow; */
             /* display: flex;
                 justify-content: center;
@@ -809,6 +815,7 @@
             font-family: sfont;
                width: 100%;
                height: 80vh;
+                background-color: rgba(12, 82, 105, 0.205);
                /* background-color: #333; */
                align-content: center;
                h2{
@@ -829,7 +836,7 @@
                         width: 160px;
                         padding: 15px;
                         border-radius: 10px;
-                        background: #ffffff;
+                       background-color: rgba(20, 87, 145, 0.342);
                         box-shadow: 0 4px 15px rgba(0,0,0,0.1);
                         text-align: center;
                         transition: 0.3s ease;
@@ -862,12 +869,12 @@
     }
     footer{
         /* background-color: #3269BC; */
+        background-color: rgba(20, 87, 145, 0.342);
         font-family: sfont;
         width: 100%;
         height: 20vh;
         text-align: center;
         align-content: center;
-        background-color: aliceblue;
         font-size: 0.9em;
         p{
             span{
